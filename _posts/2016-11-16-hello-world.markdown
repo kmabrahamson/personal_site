@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  hello world
-date:   2016-11-16 7:41
+date:   2016-11-16
 description: an intro to me in tweets
 ---
 I'm Kaitlin.

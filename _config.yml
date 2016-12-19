@@ -1,6 +1,6 @@
 # Site settings
 title: kaitlin abrahamson
-email: you@example.com
+email: me@kaitlin.io
 description: > # this means to ignore newlines until "baseurl:"
   full stack web developer & ruby enthusiast
 baseurl:  # the subpath of your site, e.g. /blog/
