@@ -8,7 +8,7 @@ It was Computer Science Education Week recently (who knew, right?) and I was ask
 
 To a room of high school students.
 
-Remembering myself in high school gave me a little pause, but I was still genuinely excited to talk about the field for a group of teens presumably interested in the material.  Most of the talks I've given by now have been for professional peers or those putting the work in to join the ranks, so this was a very new experience. A few weeks out, here are my thoughts about what worked and what I'd do differently.
+Remembering myself in high school gave me a little pause, but I was still genuinely excited to talk about the field for a group of teens presumably interested in the material.  Most of the tech talks I've given by now have been for professional peers or those putting the work in to join the ranks, so this was a very new experience. A few weeks out, here are my thoughts about what worked and what I'd do differently.
 
 # Know Your Audience
 I'm so glad I got in touch with the teacher ahead of time to get a sense of the curriculum and where the students were in the syllabus.  I was able to gear my talk towards the concerns of front-end development and knew not to drop a bunch of technobabble that wouldn't mean anything to a bunch of kids who'd been working with Photoshop, HTML and CSS coming later in the course.  I ended up giving a talk that covered a lot about Agile, client communication, wire-framing, and other concepts that they could relate with their project-based coursework.
