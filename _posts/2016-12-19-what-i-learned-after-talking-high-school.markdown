@@ -4,7 +4,7 @@ title:  talking to teenagers about web dev? don't panic
 date:   2016-12-19
 description: what i learned after talking about web development to a room of fifteen-year-olds
 ---
-It was Computer Science Education Week recently (who knew, right?) and I was asked to give a talk about being a web developer.  Awesome, sure, I love giving talks. Even better, I'd be giving it with the fantastic [Lea Ann Bradford](http://www.leaannbradford.com){:target="_blank"} -- go take a look at her awesome front-end work.
+It was Computer Science Education Week recently (who knew, right?) and I was asked to give a talk about being a web developer.  Awesome, sure, I love giving talks. Even better, I'd be giving it with the fantastic [Lea Ann Bradford](http://www.leaannbradford.com){:target="_blank"} -- go take a look at her wonderful front-end work.
 
 Our audience: a room of high school students.
 
