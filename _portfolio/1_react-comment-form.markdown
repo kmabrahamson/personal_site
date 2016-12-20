@@ -5,8 +5,8 @@ description: with browserify and material design
 img:
 ---
 
-See the Github repo of the finished project: <a href="https://github.com/kmabrahamson/react-tutorial">Customized React Comment Form</a>
-<a href="https://github.com/kmabrahamson/react-tutorial"><i class="fa fa-github-square"></i></a>
+See the Github repo of the finished project: <a href="https://github.com/kmabrahamson/react-tutorial" target="_blank">Customized React Comment Form</a>
+<a href="https://github.com/kmabrahamson/react-tutorial" target="_blank"><i class="fa fa-github-square"></i></a>
 
 It finally happened. Enough of my students started coming to me with React questions or expressing their interest in  learning React that it seemed time to figure out what was going on with the new Javascript hotness. The last time I learned a JS framework, AngularJS 1.x, it had been in production and with the support of fellow devs to let me know what was worth focusing on, but this time I was plunging in solo with a series of tutorials and whatever the documentation said to guide me.
 
@@ -57,7 +57,7 @@ I set up a bundle.js file, and then with a few `npm install package --save` comm
 
 Here's where it got weird.
 
-For my styling library, I settled on <a href="https://www.muicss.com/">MUI</a>, a material design CSS library. Super light weight, just enough to whack my toy app with the pretty stick and then move on. Installed, checked my package.json, but I couldn't for the life of me get its various components and styles to register as available in the application.
+For my styling library, I settled on <a href="https://www.muicss.com/" target="_blank">MUI</a>, a material design CSS library. Super light weight, just enough to whack my toy app with the pretty stick and then move on. Installed, checked my package.json, but I couldn't for the life of me get its various components and styles to register as available in the application.
 
 Spent a little while banging my head against that one, tried some clever requires straight from the node_modules directory, etc., before I figured out that bundling/transforming CSS isn't in browserify's bag of tricks. Turns out there's browserify-css for that.
 
@@ -98,7 +98,7 @@ Another installation, some tweaks of my browserify script, some FontAwesome for 
 	  }
 	});
 
-I had a lot of fun experimenting with Facebook's offering to the frontend wars, even the toolchain bits and bobs, and I'll probably circle back to Webpack some day soon. I love the idea of component-based development, and I'm excited about React's possibilities as a compliment to Rails 5 with its new API mode. I'm in the process of coming up with more excuses to churn out React sandbox apps, given how old this example is. Electron + React app, maybe?
+I had a lot of fun experimenting with Facebook's offering to the front-end wars, even the toolchain bits and bobs, and I'll probably circle back to Webpack some day soon. I love the idea of component-based development, and I'm excited about React's possibilities as a compliment to Rails 5 with its new API mode. I'm in the process of coming up with more excuses to churn out React sandbox apps, given how old this example is. Electron + React app, maybe?
 
-Source code here: <a href="https://github.com/kmabrahamson/react-tutorial">Customized React Comment Form</a>
-<a href="https://github.com/kmabrahamson/react-tutorial"><i class="fa fa-github-square"></i></a>
+Source code here: <a href="https://github.com/kmabrahamson/react-tutorial" target="_blank">Customized React Comment Form</a>
+<a href="https://github.com/kmabrahamson/react-tutorial" target="_blank"><i class="fa fa-github-square"></i></a>

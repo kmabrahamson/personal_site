@@ -4,9 +4,9 @@ title:  talking to teenagers about web dev? don't panic
 date:   2016-12-19
 description: what i learned after talking about web development to a room of fifteen-year-olds
 ---
-It was Computer Science Education Week recently (who knew, right?) and I was asked to give a talk about being a web developer.  Awesome, sure, I love giving talks.
+It was Computer Science Education Week recently (who knew, right?) and I was asked to give a talk about being a web developer.  Awesome, sure, I love giving talks. Even better, I'd be giving it with the fantastic [Lea Ann Bradford](http://www.leaannbradford.com){:target="_blank"} -- go take a look at her awesome front-end work.
 
-To a room of high school students.
+Our audience: a room of high school students.
 
 Remembering myself in high school gave me a little pause, but I was still genuinely excited to talk about the field for a group of teens presumably interested in the material.  Most of the tech talks I've given by now have been for professional peers or those putting the work in to join the ranks, so this was a very new experience. A few weeks out, here are my thoughts about what worked and what I'd do differently.
 
