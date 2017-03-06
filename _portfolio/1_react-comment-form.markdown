@@ -21,18 +21,20 @@ I figured I'd get my feet wet with the standard Facebook tutorial, a comment for
 
 So, this was the end result after my whirlwind walkthrough of Facebook's React tutorial. It was entirely functional, added new comments, updated content in real time, but I figured I could find a library that would help me make it look a bit more appealing. Design doesn't come intuitively to me, so something like a "Bootstrap for React" that would make all the decisions sounded great. Plus, more practice working with JSX and React components!
 
-	<html>
-	  <head>
-	    <meta charset="utf-8">
-	    <title>React Tutorial</title>
-	    <!-- Not present in the tutorial. Just for basic styling. -->
-	    <link rel="stylesheet" href="css/base.css" />
-	    <script src="https://unpkg.com/react@15.3.0/dist/react.js"></script>
-	    <script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.js"></script>
-	    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
-	    <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
-	    <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
-	  </head>
+```html
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>React Tutorial</title>
+  <!-- Not present in the tutorial. Just for basic styling. -->
+  <link rel="stylesheet" href="css/base.css" />
+  <script src="https://unpkg.com/react@15.3.0/dist/react.js"></script>
+  <script src="https://unpkg.com/react-dom@15.3.0/dist/react-dom.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
+</head>
+```
 
 The other obvious improvement I set my sights on was all the CDN's powering my toy app. Coming from a Rails background, a porky head tag makes me feel like I'm not comfortable with my tools or development environment. I really, really wanted to yank out those CDN's and install those dependencies properly.
 
@@ -42,15 +44,17 @@ I chose browserify for two reasons: I'd already used it for another project and 
 
 I set up a bundle.js file, and then with a few `npm install package --save` commands, I had a package.json that looked less like a scaffold and more like a reasonable app. For one: it had React as a dependency. I also created some npm scripts to start the server and bundle my dependencies for me. So far so good.
 
-	<html>
-	  <head>
-	    <meta charset="utf-8">
-	    <title>React Tutorial</title>
-	    <!-- Not present in the tutorial. Just for basic styling. -->
-	    <link rel="stylesheet" href="css/base.css" />
-	    <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
-	    <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
-	  </head>
+```html
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>React Tutorial</title>
+  <!-- Not present in the tutorial. Just for basic styling. -->
+  <link rel="stylesheet" href="css/base.css" />
+  <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
+</head>
+```
 <div class="col three caption">
 	So much better, I'm actually sighing in relief looking at it.
 </div>
@@ -74,29 +78,31 @@ Another installation, some tweaks of my browserify script, some FontAwesome for 
 
 ...something that looked a little more exciting to interact with. After importing the needed styles, the markup in my JSX render functions remained nicely legible (no inline styling!).
 
-	import React from 'react';
-	import ReactDOM from 'react-dom';
-	import Styles from '../css/base.css';
-	import Container from 'muicss/lib/react/container';
-	import Panel from 'muicss/lib/react/panel';
-	import Button from 'muicss/lib/react/button';
-	import Form from 'muicss/lib/react/form';
-	import Input from 'muicss/lib/react/input';
+```jsx
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Styles from '../css/base.css';
+import Container from 'muicss/lib/react/container';
+import Panel from 'muicss/lib/react/panel';
+import Button from 'muicss/lib/react/button';
+import Form from 'muicss/lib/react/form';
+import Input from 'muicss/lib/react/input';
 
-	var CommentBox = React.createClass({
-	...
-	render: function() {
-	  return (
-	    <Container>
-	      <div className="commentBox">
-	        <div className="mui--text-accent mui--text-display4">Comments</div>
-	        <CommentList data={this.state.data} />
-	        <CommentForm onCommentSubmit={this.handleCommentSubmit} />
-	      </div>
-	    </Container>
-	    );
-	  }
-	});
+var CommentBox = React.createClass({
+...
+render: function() {
+  return (
+    <Container>
+      <div className="commentBox">
+        <div className="mui--text-accent mui--text-display4">Comments</div>
+        <CommentList data={this.state.data} />
+        <CommentForm onCommentSubmit={this.handleCommentSubmit} />
+      </div>
+    </Container>
+    );
+  }
+});
+```
 
 I had a lot of fun experimenting with Facebook's offering to the front-end wars, even the toolchain bits and bobs, and I'll probably circle back to Webpack some day soon. I love the idea of component-based development, and I'm excited about React's possibilities as a compliment to Rails 5 with its new API mode. I'm in the process of coming up with more excuses to churn out React sandbox apps, given how old this example is. Electron + React app, maybe?
 
