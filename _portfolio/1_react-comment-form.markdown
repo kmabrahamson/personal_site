@@ -5,7 +5,7 @@ description: with browserify and material design
 img:
 ---
 
-See the Github repo of the finished project: <a href="https://github.com/kmabrahamson/react-tutorial" target="_blank">Customized React Comment Form</a>
+See the GitHub repo of the finished project: <a href="https://github.com/kmabrahamson/react-tutorial" target="_blank">Customized React Comment Form</a>
 <a href="https://github.com/kmabrahamson/react-tutorial" target="_blank"><i class="fa fa-github-square"></i></a>
 
 It finally happened. Enough of my students started coming to me with React questions or expressing their interest in  learning React that it seemed time to figure out what was going on with the new Javascript hotness. The last time I learned a JS framework, AngularJS 1.x, it had been in production and with the support of fellow devs to let me know what was worth focusing on, but this time I was plunging in solo with a series of tutorials and whatever the documentation said to guide me.

@@ -5,7 +5,9 @@ description: fetch API, ES6, and Rails
 img: /img/LT-clone-code.png
 ---
 
-See the Github repo of the finished project: <a href="https://github.com/kmabrahamson/librarything_clone" target="_blank">React-Rails LibraryThing Widget</a>
+[Live Demo](https://lt-widget.herokuapp.com){:target="_blank"}
+
+GitHub: <a href="https://github.com/kmabrahamson/librarything_clone" target="_blank">React-Rails LibraryThing Widget</a>
 <a href="https://github.com/kmabrahamson/librarything_clone" target="_blank"><i class="fa fa-github-square"></i></a>
 
 The next step after modifying a few tutorials and following Tyler McGinnis' excellent [ReactJS Fundamentals](https://reacttraining.com/online/react-fundamentals) course was building something of my own, right?
@@ -75,4 +77,7 @@ return (
 
 Right now, I have a simple widget that loads twenty random books' information from my collection, and if you click a button it'll grab twenty different ones (LibraryThing's simplest API was built for those WordPress blog widgets and seems to provide only 20 books' information at a time). Next, I'd like to create a side-panel that allows a user to search for written works and see all their returned results, courtesy of a different LibraryThing API. And also some kind of spinner/loading screen for the table; the initial load is a little slow.
 
-Head on over to check it out live!
+Head on over to check out the [live demo](https://lt-widget.herokuapp.com){:target="_blank"}
+
+Or the GitHub repo: <a href="https://github.com/kmabrahamson/librarything_clone" target="_blank">React-Rails LibraryThing Widget</a>
+<a href="https://github.com/kmabrahamson/librarything_clone" target="_blank"><i class="fa fa-github-square"></i></a>
