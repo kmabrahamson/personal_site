@@ -49,8 +49,6 @@ I set up a bundle.js file, and then with a few `npm install package --save` comm
 <head>
   <meta charset="utf-8">
   <title>React Tutorial</title>
-  <!-- Not present in the tutorial. Just for basic styling. -->
-  <link rel="stylesheet" href="css/base.css" />
   <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
   <script src="https://unpkg.com/remarkable@1.7.1/dist/remarkable.min.js"></script>
 </head>
