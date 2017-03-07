@@ -29,8 +29,8 @@ A simple GET request to one of [LibraryThing's API's](https://www.librarything.c
 I did run into some trouble once this request had successfully been made and passed to my React component (React installed with the [react-rails](https://github.com/reactjs/react-rails) gem). I'm not sure how I expected the returned JSON to be formatted, but the list of nested objects I got back -- after cleaning up the data a bit -- proved to be a challenge to iterate over:
 
 <div class="img_row">
-  <img class="col two" src="/img/LT-widget-screenshot1.png" />
-  <img class="col one" src="/img/LT-widget-screenshot2.png" />
+  <img class="col two" alt="nested objects" src="/img/LT-widget-screenshot1.png" />
+  <img class="col one" alt="nested object unwrapped" src="/img/LT-widget-screenshot2.png" />
 </div>
 
 <div class="col two caption">
