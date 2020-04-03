@@ -1,5 +1,6 @@
 _site
 .sass-cache
+.jekyll-cache
 .DS_store
 s3_website.yml
 deploy.sh
