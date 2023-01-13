@@ -37,7 +37,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
-    google-protobuf (3.21.12)
+    google-protobuf (3.21.12-x86_64-darwin)
     http_parser.rb (0.8.0)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
@@ -94,6 +94,9 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   s3_website!
+
+RUBY VERSION
+   ruby 3.0.0p0
 
 BUNDLED WITH
    2.4.3
